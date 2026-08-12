@@ -1,0 +1,13 @@
+{
+  "name": "visa-operations-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "企业出海签证办理工作台",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

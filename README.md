@@ -10,6 +10,10 @@ npm start
 
 访问 `http://localhost:8080`。
 
+## 演示环境
+
+腾讯云公网预览：`http://124.156.182.115/visa/`
+
 ## Docker 部署
 
 ```bash

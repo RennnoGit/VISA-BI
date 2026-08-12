@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2563eb" />
+  <title>出海签证工作台</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark">签</div>
+        <div class="brand-copy"><strong>出海签证工作台</strong><span>高效办理 · 安心出行</span></div>
+      </div>
+      <nav id="nav"></nav>
+      <div class="sidebar-foot">
+        <button class="nav-item" data-route="settings"><span class="nav-icon">⚙</span><span>系统设置</span></button>
+        <button class="nav-item" id="collapseBtn"><span class="nav-icon">◧</span><span>收起侧边栏</span></button>
+      </div>
+    </aside>
+    <section class="workspace">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobileMenu" aria-label="打开菜单">☰</button>
+        <h1>企业出海签证办理工作台</h1>
+        <div class="top-actions">
+          <button class="icon-btn" id="notifyBtn" aria-label="通知">♢<span class="notify-dot"></span></button>
+          <div class="avatar">签</div><div class="user-copy"><strong>签证专员</strong><span>管理员</span></div>
+        </div>
+      </header>
+      <main id="content"></main>
+    </section>
+  </div>
+  <div id="toast" class="toast"></div>
+  <div id="modalRoot"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
